@@ -1,0 +1,37 @@
+{
+    "name": "biniweb/oauth",
+    "description": "Simple Component for oauth",
+    "homepage": "https://github.com/biniweb/oauth",
+    "version": "0.1.0",
+    "type": "library",
+    "keywords": ["oauth"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giuseppe Maniscalco",
+            "email": "maniscalcogiuseppe82@gmail.com",
+            "role": "developer"
+        }
+    ],
+
+    "minimum-stability": "dev",
+
+    "require": {
+        "php": ">=5.4",
+        "mustache/mustache": "v2.5.1",
+        "simplon/helper": "0.6.*",
+        "fightbulc/php_curl": "1.0.0",
+        "phpunit/phpunit": "4.0.*",
+        "phpunit/phpunit-selenium": ">=1.2"
+    },
+
+    "config": {
+        "bin-dir": "bin"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Biniweb\\Oauth": "src/"
+        }
+    }
+}
